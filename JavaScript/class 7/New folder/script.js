@@ -40,6 +40,26 @@ function mul()
     l.innerText=r;
 
 }
+function div()
+{
+    if(b==0)
+    {
+        
+        const l=document.getElementById("Result")
+    l.innerText="undefined";
+        
+    }
+    else
+    {
+         r =a/b;
+    console.log(r);
+    const l=document.getElementById("Result")
+    l.innerText=r;
+
+    }
+   
+
+}
 
 
 

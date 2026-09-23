@@ -1,0 +1,18 @@
+.user
+{
+    
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+
+
+}
+
+.user > form
+{
+    border: 2px solid black;
+    padding: 20px;
+    width: 20%;
+    border-radius: 7%
+}
